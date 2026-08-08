@@ -1,0 +1,16 @@
+# Release binaries are published as GitHub Release assets.
+*.zip
+*.7z
+
+# Runtime data must never be committed.
+runtime_companies/
+*.sqlite3
+*.db
+*.log
+.env
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
